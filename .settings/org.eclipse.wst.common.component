@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Centralized_University">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="mysql-connector-java-5.1.23-bin.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mysql-connector-java-5.1.23-bin/mysql-connector-java-5.1.23-bin">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-5.1.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mysql-connector-java-5.1.6/mysql-connector-java-5.1.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="Centralized_University"/>
+        <property name="java-output-path" value="/Centralized_University/build/classes"/>
+    </wb-module>
+</project-modules>
